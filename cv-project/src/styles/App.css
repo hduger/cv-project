@@ -1,0 +1,56 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(239, 243, 250);
+}
+
+.container{
+    background-color: white;
+    padding: 4em;
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.general-info-form{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 1em;
+}
+
+.general-info-form label{
+    color: white;
+}
+
+.general-info-form input {
+    width: 70%;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 1em;
+}
+
+.general-info-form button{
+    width: 20%;
+    max-width: 100px;
+    padding: 10px;
+    border-radius: 10000px;
+}
+
+.general-info-form button:hover{
+    cursor: pointer;
+    background-color: rgb(158, 238, 158);
+}
+
+.info-title{
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.user-input{
+    font-size: 14px;
+    margin: 0;
+}
